@@ -1,7 +1,7 @@
-import { Hoverable, Droppable } from './../common/type';
+import { Hoverable, Droppable } from '../common/type';
 import { EnableDragging, EnableDrop, EnableHover } from '../../decorators/draggable.js';
 import { Draggable } from '../common/type.js';
-import { BaseComponent, Component } from './../component.js';
+import { BaseComponent, Component } from '../component.js';
 
 export interface Composable {
   addChild(child: Component): void;
